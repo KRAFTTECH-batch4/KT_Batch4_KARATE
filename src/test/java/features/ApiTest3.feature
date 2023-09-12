@@ -25,7 +25,7 @@ Feature: basic api tests
     Then match header Connection == "keep-alive"
     #validate that Date exists
     Then match header Date == "#present"
-
+  @json
   Scenario: basic json body verification with bookstore
     #request
     Given url 'https://bookstore.toolsqa.com/BookStore/v1/Books'

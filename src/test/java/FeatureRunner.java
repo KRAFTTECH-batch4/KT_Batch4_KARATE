@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @KarateOptions(
-    tags = "@first"
+    tags = "@json"
 )
 public class FeatureRunner {
 
